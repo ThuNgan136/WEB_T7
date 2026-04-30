@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* HEADER */
+.header {
+    position: relative;
+    padding: 25px 30px;
+}
+
+/* Logo nằm giữa tuyệt đối */
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 34px;
+    font-weight: bold;
+}
+
+/* Icon nằm bên phải */
+.icons {
+    text-align: right;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+    height: 400px;
+}
+/* LEFT */
+.banner-left {
+    width: 40%;
+    background: #c9d89a;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start; 
+}
+/* RIGHT */
+.banner-right {
+    width: 60%;
+}
+
+.banner-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn {
+    display: inline-flex;          
+    justify-content: center;       
+    align-items: center;           
+
+    padding: 12px 30px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.products {
+     max-width: 1200px;   /* giới hạn chiều ngang */
+    margin: 0 auto;      /* căn giữa toàn bộ */
+    padding: 40px 20px;  /* giảm padding 2 bên */
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột */
+    gap: 30px;
+}
+
+.product {
+    background: white;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* hover nhẹ cho xịn */
+.product:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    margin-top: 40px;
+}
+/* HERO */
+.about-hero {
+    text-align: center;
+    padding: 0px;
+}
+
+.about-hero h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    color: #666;
+}
+
+/* SECTION */
+.about-section {
+    padding: 60px 20px;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    line-height: 1.7;
+    color: #444;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* đảo layout */
+.reverse .about-container {
+    flex-direction: row-reverse;
+}
+
+/* CTA */
+.about-cta {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about-cta h2 {
+    margin-bottom: 20px;
+}
+/* HERO */
+.contact-hero {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 0px;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+
+/* FORM */
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* INFO */
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.login-box {
+    width: 350px;
+    padding: 30px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    color: #666;
+    font-size: 14px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #333;
+}
+
+.extra {
+    margin-top: 15px;
+    font-size: 13px;
+}
