@@ -1,17 +1,17 @@
-<?php include 'header.php'; ?>
-<?php include 'navbar.php'; ?>
+<?php include 'components/header.php'; ?>
+<?php include 'components/navbar.php'; ?>
 
 <!-- HERO -->
 <section class="about-hero">
     <h1>Our Story</h1>
-    <p>Bringing softness, comfort, and a little bit of magic into your everyday life 🧸</p>
+    <p>Bringing softness, comfort, and a little bit of magic into your everyday life.</p>
 </section>
 
 <!-- STORY -->
 <section class="about-section">
     <div class="about-container">
         <div class="about-image">
-            <img src="images/about.png">
+            <img src="images/about/about.png">
         </div>
         <div class="about-text">
             <h2>Made for Moments</h2>
@@ -32,7 +32,7 @@
 <section class="about-section reverse">
     <div class="about-container">
         <div class="about-image">
-            <img src="images/about2.png">
+            <img src="images/about/about2.png">
         </div>
         <div class="about-text">
             <h2>Crafted with Care</h2>
@@ -54,4 +54,4 @@
     <a href="/shop.php" class="btn">SHOP NOW</a>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'components/footer.php'; ?>

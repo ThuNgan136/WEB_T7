@@ -9,5 +9,5 @@
 
 
 
-<?php include 'header.php'; ?>
-<?php include 'navbar.php'; ?>
+<?php include 'components/header.php'; ?>
+<?php include 'components/navbar.php'; ?>

@@ -1,10 +1,10 @@
-<?php include 'header.php'; ?>
-<?php include 'navbar.php'; ?>
+<?php include 'components/header.php'; ?>
+<?php include 'components/navbar.php'; ?>
 
 <!-- HERO -->
 <section class="contact-hero">
     
-    <p>We’d love to hear from you 🧸</p>
+    <p>We’d love to hear from you </p>
 </section>
 
 <!-- CONTACT -->
@@ -39,11 +39,11 @@
                 
             </p>
             <p>
-                orders, or anything else 💖
+                orders, or anything else 
             </p>
         </div>
 
     </div>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'components/footer.php'; ?>

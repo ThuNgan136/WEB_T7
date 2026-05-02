@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Junior Bear",
+    "image": "images/products/bear_junior.jpg",
+    "price": "€38.00",
+    "category": "animals",
+    "description": "A soft and cuddly teddy bear, perfect for hugs, gifts, and everyday comfort."
+  },
+  {
+    "id": 2,
+    "name": "Cream Bunny",
+    "price": "€40.00",
+    "image": "images/products/cream_bunny.jpg",
+    "category": "animals",
+    "description": "This adorable bunny is perfect for cuddles, bedtime, and thoughtful gifts."
+  },
+    {
+    "id": 3,
+    "name": "Sausage Dog",
+    "price": "€28.00",
+    "image": "images/products/dog.jpg",
+    "category": "animals",
+    "description": "A lovable plush dog that’s always ready to be your loyal companion."
+  },
+    {
+    "id": 4,
+    "name": "Ginger Cat",
+    "price": "€35.00",
+    "image": "images/products/ginger_cat.jpg",
+    "category": "animals",
+    "description": "This soft ginger kitty brings comfort and cuteness in every hug."
+  },
+    {
+    "id": 5,
+    "name": "Monkey",
+    "price": "€28.00",
+    "image": "images/products/monkey.jpg",
+    "category": "animals",
+    "description": "With its fluffy mane and soft touch, this monkey is a gentle king of comfort."
+  },
+      {
+    "id": 6,
+    "name": "Lime",
+    "price": "€25.00",
+    "image": "images/products/lime.jpg",
+    "category": "food",
+    "description": "A fresh and playful lime plush, bringing a splash of fun and softness to your day."
+  },
+      {
+    "id": 7,
+    "name": "Marshmallow",
+    "price": "€55.00",
+    "image": "images/products/marshmallow.jpg",
+    "category": "food",
+    "description": "Sweet and squishy marshmallow plushies, soft, cute, and perfect for cozy moments."
+  },
+      {
+    "id": 8,
+    "name": "Peach",
+    "price": "€32.00",
+    "image": "images/products/peach.jpg",
+    "category": "food",
+    "description": "A soft and blushing peach plush that adds a touch of sweetness to any space.”"
+  },
+      {
+    "id": 9,
+    "name": "Potato",
+    "price": "€35.00",
+    "image": "images/products/potato.jpg",
+    "category": "food",
+    "description": "A cute and comforting potato plush, perfect for adding a touch of whimsy to your collection."
+  },
+      {
+    "id": 10,
+    "name": "Rainbow Cake",
+    "price": "€45.00",
+    "image": "images/products/rainbow_cake.jpg",
+    "category": "food",
+    "description": "A colorful rainbow cake plush that’s as cheerful as it is cuddly."
+  },
+        {
+    "id": 11,
+    "name": "Crab",
+    "price": "€38.00",
+    "image": "images/products/crab.jpg",
+    "category": "ocean",
+    "description": "A cute and cozy crab plush, perfect for adding a touch of the ocean to your collection."
+  },
+        {
+    "id": 12,
+    "name": "Octopus",
+    "price": "€45.00",
+    "image": "images/products/octopus.jpg",
+    "category": "ocean",
+    "description": "A playful and soft octopus plush, perfect for ocean-themed collections."
+  },
+        {
+    "id": 13,
+    "name": "Turtle",
+    "price": "€30.00",
+    "image": "images/products/turtle.jpg",
+    "category": "ocean",
+    "description": "A gentle turtle plush with a soft shell, perfect for slow and cozy snuggles."
+  },
+        {
+    "id": 14,
+    "name": "Whale",
+    "price": "€35.00",
+    "image": "images/products/whale.jpg",
+    "category": "ocean",
+    "description": "A chubby little whale plush, soft as a cloud and perfect for hugging."
+  },
+        {
+    "id": 15,
+    "name": "Shark",
+    "price": "€38.00",
+    "image": "images/products/shark.jpg",
+    "category": "ocean",
+    "description": "A friendly shark plush with a playful look—more cuddly than scary!"
+  }
+]

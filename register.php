@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIMI TEDDY</title>
-</head>
-<body>
-    <?php include 'header.php'; ?>
-<?php include 'navbar.php'; ?>
+<?php include 'components/header.php'; ?>
+<?php include 'components/navbar.php'; ?>
 
 <section class="login-page">
     <div class="login-box">
@@ -29,6 +21,6 @@
     </div>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'components/footer.php'; ?>
 </body>
 </html>
