@@ -32,7 +32,16 @@ foreach ($products as $p) {
                     <h1 class="name"><?php echo $current_product['name']; ?></h1>
                     <p class="price"><?php echo $current_product['price']; ?></p>
                     <p class="description"><?php echo $current_product['description']; ?></p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <form action="cart.php" method="post" class="add-to-cart-form">
+                        <div class="quantity-input">
+                            <button type="button" class="quantity-button" id="decrease-btn">−</button>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1">
+                            <button type="button" class="quantity-button" id="increase-btn">+</button>
+                        </div>
+                        <input type="hidden" name="product_id" value="<?php echo $current_product['id']; ?>">
+                        <input type="hidden" name="action" value="add">
+                        <button type="submit" class="add-to-cart">Add to Cart</button>
+                    </form>
                 </div>
             </div>
         <?php else: ?>
@@ -42,5 +51,24 @@ foreach ($products as $p) {
         <?php endif; ?>
     </div>
 </main>
+
+<script>
+    const quantityInput = document.getElementById('quantity');
+    const increaseBtn = document.getElementById('increase-btn');
+    const decreaseBtn = document.getElementById('decrease-btn');
+
+    if (quantityInput && increaseBtn && decreaseBtn) {
+        increaseBtn.addEventListener('click', () => {
+            quantityInput.value = parseInt(quantityInput.value, 10) + 1;
+        });
+
+        decreaseBtn.addEventListener('click', () => {
+            const currentValue = parseInt(quantityInput.value, 10);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+    }
+</script>
 
 <?php include 'components/footer.php'; ?>
